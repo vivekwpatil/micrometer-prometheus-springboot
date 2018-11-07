@@ -13,7 +13,7 @@
 
 ### Monitoring the metrices in dashboard
 1. We can use Grafana to view the metrices
-2. Alternatively if we run Prometheus in Docker container locally and then collect information from 8091 port.
+2. Alternatively if we run Prometheus in Docker container locally and then collect information from 8091 port ( to be udated soon)
 3. We can see these collected metrices in graph UI.
 
 

@@ -1,2 +1,2 @@
 language: java
-mvn clean inatall
+script: mvn clean inatall

@@ -1,2 +1,3 @@
 language: java
-script: mvn clean inatall
+install:
+- mvn clean install

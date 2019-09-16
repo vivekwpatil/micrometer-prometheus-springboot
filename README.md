@@ -12,9 +12,8 @@
 6. On the Prometheus server side, each target is scraped at a regular interval(scrape interval). Each scrape reads the metrics to get the current state of the client metrics, and persists the values in the Prometheus time-series database
 
 ### Monitoring the metrices in dashboard
-1. We can use Grafana to view the metrices
-2. Alternatively if we run Prometheus in Docker container locally and then collect information from 8091 port ( to be udated soon)
-3. We can see these collected metrices in graph UI.
+docker-compose up
+This will start 4 spring boot services, Prometheus and Grafana and then you can see metrices against call made to API are available  in grafana.
 
 
 References:
